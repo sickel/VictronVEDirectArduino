@@ -6,7 +6,7 @@ Built as part of a larger project, now making it available separately in case ot
 Setup:
  - An Arduino(ish) board 
  - A Victron Energy device that sends serial data using the text version of the VE.Direct protocol
- - A 5v to 3.3v serial converter (BMV is 3.3v - don't plug it directly into a 5v Arduino!)
+ - A 5v to 3.3v serial converter (BMV is 3.3v - don't plug it directly into a 5v Arduino!, for MPPT all models are 5v cf the faq)
  - Plugged into the Arduino on a serial port (eg Serial1, Serial2, Serial3 etc)
  - See also: https://www.victronenergy.com/live/vedirect_protocol:faq
  - Developed and tested with a BMV-700 battery monitor, should work with any that talk VE.Direct
